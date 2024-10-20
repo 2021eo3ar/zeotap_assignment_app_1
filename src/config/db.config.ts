@@ -4,10 +4,6 @@ import * as schema from "../models/schema"
 import dotenv from "dotenv"
 
 dotenv.config()
-// const client = new Client({
-//   connectionString: "postgres://user:password@host:port/db",
-// });
-// or
 
 const db = process.env.DBPORT as string
 const dbport = parseInt(db)
